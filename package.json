@@ -1,0 +1,52 @@
+{
+  "name": "react-todoapp",
+  "version": "1.0.0",
+  "description": "Trying to create a simple todoapp with react",
+  "scripts": {
+    "start": "node server.js",
+    "build": "webpack",
+    "deploy": "npm run build && gh-pages -d build",
+    "lint": "eslint src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jackyef/react-todoapp.git"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "boilerplate",
+    "hot",
+    "reload",
+    "hmr",
+    "live",
+    "edit",
+    "webpack"
+  ],
+  "author": "Jacky Efendi <jacky.efendi1@gmail.com> (http://github.com/jackyef)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jackyef/react-todoapp/issues"
+  },
+  "homepage": "https://jackyef.github.io/react-todoapp",
+  "devDependencies": {
+    "babel-core": "^6.0.20",
+    "babel-eslint": "^4.1.3",
+    "babel-loader": "^6.0.1",
+    "babel-preset-es2015": "^6.0.15",
+    "babel-preset-react": "^6.0.15",
+    "babel-preset-stage-0": "^6.0.15",
+    "eslint": "^1.10.3",
+    "eslint-plugin-react": "^3.6.2",
+    "express": "^4.13.4",
+    "gh-pages": "^0.12.0",
+    "react-hot-loader": "^1.3.0",
+    "webpack": "^1.12.2",
+    "webpack-dev-middleware": "^1.6.1",
+    "webpack-hot-middleware": "^2.10.0"
+  },
+  "dependencies": {
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6"
+  }
+}
